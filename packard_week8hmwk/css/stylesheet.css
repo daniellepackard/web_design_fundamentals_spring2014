@@ -1,0 +1,208 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* stylesheet */
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.background {
+	background-color: rgba(0,0,0,.9); /* black */
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* header */
+h1 {
+	font-family: 'Cinzel', serif;
+	font-weight: 900;
+	font-size: 6em;
+	text-transform: uppercase;
+	color: rgb(220,20,60); /* crimson */
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	margin-left: 5%;
+	border-right: 1px solid rgb(220,20,60);
+	padding: 2%;
+}
+
+span {
+	padding-left: 75px;
+}
+
+nav {
+	float: left;
+	margin-top: 125px;
+	margin-left: 7%;
+	margin-bottom: 30px; /* for when browser window is smaller and nav drops down from along side h1 */
+}
+
+ul li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 20px;
+	padding: 15px;
+	font-family: 'Lobster', cursive;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+/* full image */
+.fullimage {
+	clear: both;
+	text-align: center;
+}
+
+/* seasonal specials heading */
+h2 {
+	font-family: 'Cinzel', serif;
+	font-weight: 700;
+	font-size: 1.7em;
+	text-transform: uppercase;
+	color: rgb(220,20,60); /* crimson */
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 10%;
+}
+
+.divider {
+	clear: both;
+	border: 1px solid rgb(220,20,60);
+	margin-bottom: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/* textbox 1 & 2 */
+.textbox1, .textbox2 {
+	float: left;
+	margin-left: 10%;
+	width: 30%;
+	height: 200px;
+}
+
+h3 {
+	font-family: 'Cinzel', serif;
+	font-weight: 700;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	color: rgb(220,20,60); /* crimson */
+	padding-top: 50px;
+}
+
+h3 + p {
+	font-family: Lucida, Georgia, serif;
+	font-size: 1em;
+	color: rgba(220,20,60,1); /* crimson */
+}
+
+/* image 1 & 2 */
+.image1 {
+	float: left;
+	margin-left: 5%;
+	width:20%;
+	margin-bottom: 30px;
+}
+
+.image2 {
+	float: left;
+	margin-left: 5%;
+	width:20%;
+	margin-bottom: 30px;
+}
+
+/* footer */
+ footer {
+	clear: both;
+	color: rgba(255,228,196,.5); /* bisque */
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-weight: 400;
+	font-size: .8em;
+}
+
+footer + ul li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 20px;
+	padding: 15px;
+	
+}
+
+/* navigation links */
+a  {
+	text-decoration: none;
+}
+
+a:link  {
+	color: rgb(255,203,107);
+}
+
+a:visited  {
+	color: rgb(255,228,196); /* bisque */
+}
+
+a:hover  {
+	color: rgba(255,228,196,.8); /* bisque */
+}
+
+
+
+
+
+
+

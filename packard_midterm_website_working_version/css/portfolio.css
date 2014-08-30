@@ -1,0 +1,139 @@
+/* stylesheet for portfolio */
+
+*, *:before, *:after  {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#background  {
+	background-color: #d3d3d3; /* light grey */
+	background-image: url(../images/gplaypattern.png);
+	background-repeat: repeat;
+	background-position: center;
+	background-attachment: fixed; /* note to self: no cover, it stretches this pattern and makes it blurry and big */
+}
+
+.blackbartop  {
+	background-color: #000;
+	width: 100%;
+	height: 100px;
+	position: absolute;
+}
+
+/* navigation */
+nav  {
+	text-align: center;
+	position: relative;
+	margin-top: 35px;
+}
+
+.navbar   {
+	margin: 0;
+	padding: 0;
+}
+
+.navitem  {
+	list-style-type: none;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-size: 1em;
+	display: inline;
+	margin: 20px;
+	padding: 10px;
+}
+
+/* portfolio title */
+
+.portfoliotitle  {
+	position: absolute;
+	top: 150px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-size: 1em;
+}
+
+h1  {
+	font-family: 'Josefin Sans', sans-serif;;
+	font-style: normal;
+	font-size: 4em;
+	color: #000;
+}
+
+h2  {
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-size: 2em;
+	color: #000;
+}
+
+/* portfolio images */
+
+.portfolioimages  {
+	position: absolute;
+	top: 375px;
+	width: 100%;
+}
+
+.portfolioimages p  {
+	clear: both;
+}
+
+.clear  {
+	clear: both;
+}
+
+h3  {
+	float: left;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-size: 1.5em;
+	color: #000;
+	border-bottom: 2px solid #c0c0c0; /* silver */
+	width: 45%;
+}
+
+img  {
+	padding: 15px;
+	margin: 15px;
+	border: 1px solid #c0c0c0; /* silver */
+}
+
+p  {
+	text-align: center; /* this worked!!!!! WOW!!!! i hadn't tried this yet for some reason as I thought all my
+	paragraphs would then be center aligned. but now realize that the only other <p> element is in the footer, and
+	that has its own styling that would override this one. gesh all that time spent trying different things to get
+	the image blocks to center. lol. lesson is, try the obvious and simplest first!!!! */
+}
+
+/* footer */
+footer  {
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	left: 5px;
+	color: #808080; /* gray */
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-size: .7em;
+}
+
+/* navigation links */
+a  {
+	text-decoration: none; /* turns off underlines */
+}
+
+a:link  {
+	color: #fff; /* white */
+}
+
+a:visited  {
+	color: #c0c0c0; /* silver */
+}
+
+a:hover  {
+	color: #dcdcdc; /* gainsboro */
+}

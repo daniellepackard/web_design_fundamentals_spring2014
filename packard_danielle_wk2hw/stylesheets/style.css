@@ -1,0 +1,140 @@
+/* stylesheet for all other pages than index */
+
+*, *:before, *:after  {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body  {
+	background-color: #006400; /* for some reason I could not get any background image to work,
+	I tried and looked things up for a couple of hours with no success...not sure what the heck
+	was up given I've not had problems before */
+}
+
+#container  {
+	background-color: rgba(255,255,255,.5); /* foreground background color and border */
+	padding: 75px;
+	margin: 50px;
+	border: double 10px black;
+	overflow: auto;
+	clear: both;
+}
+
+/* content & div columns */        /* student's personal reference pg. 391 Learning Web Design */
+#content  {
+	margin: 0;
+	position: relative;
+}
+#column1  {
+	position: relative;
+	float: left;
+	width: 450px;
+	margin: 0 20px;
+	padding: 0 20px; 
+	border: none;
+	text-align: justify;
+}
+
+#column2  {
+	position: relative;
+	float: left;
+	width: 450px;
+	margin: 0 20px;
+	padding: 0 20px; 
+	border: none;
+	text-align: justify;
+}
+
+#bulleted  {
+	list-style-type: square;
+}
+
+/* header area */
+header  {
+	margin-bottom: 54px;
+}
+
+.center  {
+	text-align: center;
+}
+
+h1  {
+	color: #ffd700;
+	font-size: 64px;
+	font-family: 'Spirax', cursive;
+	text-align: center;
+	word-spacing: 7px;
+}
+
+/* navigation */
+nav  {
+	text-align: center;
+}
+
+.navbar  {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navitem  {
+	display: inline;
+	padding: 5px;
+	margin: 5px;
+	font-size: 18px;
+}
+
+ul  {
+	list-style-type: none;
+}
+
+/* rainforest image */
+.rainforest img  {
+	border: solid 2px #000;
+}
+
+/* headings in body */
+
+h2  {
+	text-transform: uppercase;
+	text-align: left;
+}
+
+h3  {
+	text-align: left;
+}
+
+/*rainforest materials image on rainforest wealth page */
+#rainforest_materials  {
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+
+/* footer */
+footer  {
+	clear: both;
+	width: 100%;
+	color: #fff;
+	background-color: #808000;
+	text-align: center;
+}
+
+/* navigation links */
+a {
+	text-decoration: none; /* turns off underlines for all links */
+}
+
+a:link  {
+	color: #000;
+}
+
+a:visited  {
+	color: #d2dc9d;
+}
+
+a:hover  {
+	color: #ffd700;
+	background-color: rgba(0, 0, 0, .1);
+}
